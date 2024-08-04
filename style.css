@@ -692,7 +692,7 @@ border: 1px solid white;
 font-size: 15px;
 position: relative;
 bottom: -55vh;
-left:-18vh;
+left:-17vh;
 border-radius: 20px;
 height: 30px;
 display:flex;
@@ -707,7 +707,7 @@ border: 1px solid white;
 font-size: 15px;
 position: relative;
 bottom: -55vh;
-left:-17vh;
+left:-16vh;
 border-radius: 20px;
 height: 30px;
 display:flex;
@@ -753,4 +753,4 @@ margin-top: 10px;
     #nav4 button {
         font-size: 0.9rem;
     }
-    }
+}
