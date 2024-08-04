@@ -135,13 +135,13 @@ dp.style.color="white";
 
 var nav4 = document.querySelector("#nav4 button");
 nav4.addEventListener("touchstart", function(){
-nav4.style.backgroundColor="red";
-nav4.style.color="white";
-nav4.style.boxShadow="0px 0px 10px 1px black";
+
+nav4.style.border ="0px solid white";
+nav4.style.boxShadow="0px 0px 100px 1px black";
 });
 nav4.addEventListener("touchend", function(){
-nav4.style.backgroundColor="white";
-nav4.style.color="black";
+nav4.style.border ="1px solid black";
+
 nav4.style.boxShadow="none";
 });
 
@@ -199,4 +199,20 @@ hara2.addEventListener("touchend", function(){
 hara2.style.backgroundColor="transparent";
 hara2.style.color="white";
 });
-    
+
+
+
+
+
+
+var btn99 = document.querySelector("#btn99");
+btn99.addEventListener("touchstart", function(){
+btn99.style.backgroundColor="white";
+btn99.style.color="black";
+});
+btn99.addEventListener("touchend", function(){
+btn99.style.backgroundColor="transparent";
+btn99.style.color="white";
+});
+
+
