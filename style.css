@@ -8,11 +8,13 @@ body {
     font-weight: 400;
     font-style: normal;
     overflow-x: hidden; 
-}
-#main {
+    height: 100h;
     width: 100vw;
-    height: 100vh;
 }
+
+
+
+
 
 #nav1 {
     width: 100%;
@@ -44,6 +46,7 @@ body {
     font-size: 5vh;
     z-index: 2;
         cursor: pointer;
+
 }
 
 
@@ -385,7 +388,7 @@ body {
 
 #menupage {
     width: 0vw;
-    height: 100%;
+    height: 100vh;
     background-color: black;
     position: absolute;
     z-index: 1;
@@ -415,9 +418,9 @@ body {
     font-weight: bold;
     margin-left: 30px;
     margin-bottom: 20px;
-    color: gray;
+    color: gray;	
 }
-
+	
 
 
 
@@ -717,40 +720,5 @@ padding: 0px 10px;
 margin-top: 10px;
 }
 
-@media (orientation: landscape) {
-    #main {
-        flex-direction: row;
-        flex-wrap: wrap;
-    }
-
-    #nav1 img {
-        width: 15%;
-    }
-
-    #nav2 p.h {
-        font-size: 1.5rem;
-    }
-
-    #nav2b video {
-        width: 100px;
-        height: 60px;
-    }
-
-    #nav4 button {
-        font-size: 0.8rem;
-    }
-}
-
-@media (max-width: 768px) {
-    #nav1 img {
-        width: 40%;
-    }
-
-    #nav2 p.h {
-        font-size: 2rem;
-    }
-
-    #nav4 button {
-        font-size: 0.9rem;
-    }
-}
+#maindiv{height: 100vh;
+width: 100vw;}

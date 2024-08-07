@@ -349,3 +349,35 @@ imgg6.style.boxShadow="0px 0px 10px 1px white";
 imgg6.addEventListener("touchend", function(){
 imgg6.style.boxShadow = "0px 0px 0px 0px white";
 }); 
+
+
+
+
+const scroll = new LocomotiveScroll({
+    el: document.querySelector("#main"),
+    smooth: true
+});
+
+
+
+const elements = [
+  "#c1",
+  "#c2",
+  "#c3",
+  "#c4",
+  "#c5",
+  "#c6",
+  "#c7",
+  "#c8",
+];
+
+elements.forEach(el => {
+  gsap.from(el, {
+    y: 50,
+    duration: 0.5,
+    scrollTrigger: { 
+      trigger: el,
+      toggleActions: "play none none reset"
+    }
+  });
+});
