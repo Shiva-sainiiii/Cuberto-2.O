@@ -1,5 +1,3 @@
-Here's a rewritten version with a more engaging tone, symbols, and emojis:
-
 "🎉 My First Web Project! 🎉
 
 I'm thrilled to share my clone of the amazing website ( cuberto.com ) 🤩! With 90% similarity, I've added my own twist 💡 based on my observations.
