@@ -2,6 +2,12 @@
 
 I'm thrilled to share my clone of the amazing website ( cuberto.com ) 🤩! With 90% similarity, I've added my own twist 💡 based on my observations.
 
+🔍 Tech Stack 🔍
+
+- 🎥 GSAP: For scroll triggers and animated images, bringing the site to life!
+- 🎨 Font Awesome: Icons that add a touch of elegance and professionalism.
+- 📚 Google Fonts: Beautiful typography that enhances the overall design.
+
 📱 Mobile-First Design 📱
 I've crafted this website specifically for mobile devices, focusing on phone screen dimensions. For the best experience, please open it on your mobile phone 📲!
 
